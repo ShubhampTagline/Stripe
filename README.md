@@ -21,37 +21,47 @@ git clone git@github.com:ShubhampTagline/Stripe.git
 
 ```
 > Mac Os
+python3 -m vnev env
+
+> Window
+py -m venv env
+```
+
+3. Active env
+
+```
+> Mac Os
 source env/bin/activate
 
 > Window
 env/Scripts/activate
 ```
 
-3. Install the required packages:
+4. Install the required packages:
 
 ```
 pip install -r requirements.txt
 ```
 
-4. Apply migrations:
+5. Apply migrations:
 
 ```
 python manage.py migrate
 ```
 
-5. Create a superuser:
+6. Create a superuser:
 
 ```
 python manage.py createsuperuser
 ```
 
-6. Run the development server:
+7. Run the development server:
 
 ```
 python manage.py runserver
 ```
 
-7. Open the project in your web browser:
+8. Open the project in your web browser:
 
 ```#0969DA
 http://localhost:8000/
